@@ -1,2 +1,7 @@
-<h1>Restaurants#edit</h1>
-<p>Find me in app/views/restaurants/edit.html.erb</p>
+<h1 class="text-center">Editing Restaurant</h1>
+<div class="container">
+  <%= render 'form', restaurant: @restaurant %>
+
+  <%= link_to 'Show', @restaurant %> |
+  <%= link_to 'Back', restaurants_path %>
+</div>
